@@ -13,15 +13,6 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.client.config" />
-        <option name="gradleJvm" value="#JAVA_HOME" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.client.config" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.client.gateway" />
         <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
