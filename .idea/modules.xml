@@ -3,10 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringCamp.iml" filepath="$PROJECT_DIR$/.idea/SpringCamp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.spring-cloud.eureka.client.auth.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.spring-cloud.eureka.client.auth.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.spring-cloud.eureka.client.gateway.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.spring-cloud.eureka.client.gateway.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.spring-cloud.eureka.client.order.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.spring-cloud.eureka.client.order.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.spring-cloud.eureka.client.product.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.spring-cloud.eureka.client.product.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.market.order.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.market.order.main.iml" />
     </modules>
   </component>
 </project>

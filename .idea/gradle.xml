@@ -4,47 +4,11 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.client.auth" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Large-scale-Stream-Processing/RabbitMQ/com.market.order" />
         <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.client.auth" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.client.gateway" />
-        <option name="gradleJvm" value="#JAVA_HOME" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.client.gateway" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.client.order" />
-        <option name="gradleJvm" value="#JAVA_HOME" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.client.order" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.client.product" />
-        <option name="gradleJvm" value="#JAVA_HOME" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.client.product" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.server/server" />
-        <option name="gradleJvm" value="#JAVA_HOME" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.server/server" />
+            <option value="$PROJECT_DIR$/Large-scale-Stream-Processing/RabbitMQ/com.market.order" />
           </set>
         </option>
       </GradleProjectSettings>
