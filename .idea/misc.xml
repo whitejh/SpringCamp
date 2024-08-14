@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Large-scale-Stream-Processing/Kafka/com.kafka-sample.consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/Large-scale-Stream-Processing/Kafka/com.kafka-sample.producer" />
     <file type="web" url="file://$PROJECT_DIR$/Large-scale-Stream-Processing/RabbitMQ/com.market.order" />
     <file type="web" url="file://$PROJECT_DIR$/Large-scale-Stream-Processing/RabbitMQ/com.market.payment" />
     <file type="web" url="file://$PROJECT_DIR$/Large-scale-Stream-Processing/RabbitMQ/com.market.product" />

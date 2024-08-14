@@ -4,29 +4,20 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Large-scale-Stream-Processing/RabbitMQ/com.market.order" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Large-scale-Stream-Processing/Kafka/com.kafka-sample.consumer" />
         <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/Large-scale-Stream-Processing/RabbitMQ/com.market.order" />
+            <option value="$PROJECT_DIR$/Large-scale-Stream-Processing/Kafka/com.kafka-sample.consumer" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Large-scale-Stream-Processing/RabbitMQ/com.market.payment" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Large-scale-Stream-Processing/Kafka/com.kafka-sample.producer" />
         <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/Large-scale-Stream-Processing/RabbitMQ/com.market.payment" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Large-scale-Stream-Processing/RabbitMQ/com.market.product" />
-        <option name="gradleJvm" value="#JAVA_HOME" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/Large-scale-Stream-Processing/RabbitMQ/com.market.product" />
+            <option value="$PROJECT_DIR$/Large-scale-Stream-Processing/Kafka/com.kafka-sample.producer" />
           </set>
         </option>
       </GradleProjectSettings>

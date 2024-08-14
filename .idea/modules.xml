@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringCamp.iml" filepath="$PROJECT_DIR$/.idea/SpringCamp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.market.order.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.market.order.main.iml" />
     </modules>
   </component>
 </project>
