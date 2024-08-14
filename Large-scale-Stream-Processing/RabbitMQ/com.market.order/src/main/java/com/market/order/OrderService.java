@@ -10,10 +10,10 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class OrderService {
 
-    @Value("@{message.queue.product}")
+    @Value("${message.queue.product}")
     private String productQueue;
 
-    @Value("@{message.queue.payment}")
+    @Value("${message.queue.payment}")
     private String paymentQueue;
 
     private final RabbitTemplate rabbitTemplate;
