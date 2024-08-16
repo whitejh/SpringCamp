@@ -4,20 +4,29 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Large-scale-Stream-Processing/Kafka/com.kafka-sample.consumer" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Large-scale-Stream-Processing/SAGA-Pattern/com.market.order" />
         <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/Large-scale-Stream-Processing/Kafka/com.kafka-sample.consumer" />
+            <option value="$PROJECT_DIR$/Large-scale-Stream-Processing/SAGA-Pattern/com.market.order" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Large-scale-Stream-Processing/Kafka/com.kafka-sample.producer" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Large-scale-Stream-Processing/SAGA-Pattern/com.market.payment" />
         <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/Large-scale-Stream-Processing/Kafka/com.kafka-sample.producer" />
+            <option value="$PROJECT_DIR$/Large-scale-Stream-Processing/SAGA-Pattern/com.market.payment" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Large-scale-Stream-Processing/SAGA-Pattern/com.market.product" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Large-scale-Stream-Processing/SAGA-Pattern/com.market.product" />
           </set>
         </option>
       </GradleProjectSettings>

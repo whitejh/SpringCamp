@@ -7,6 +7,9 @@
     <file type="web" url="file://$PROJECT_DIR$/Large-scale-Stream-Processing/RabbitMQ/com.market.order" />
     <file type="web" url="file://$PROJECT_DIR$/Large-scale-Stream-Processing/RabbitMQ/com.market.payment" />
     <file type="web" url="file://$PROJECT_DIR$/Large-scale-Stream-Processing/RabbitMQ/com.market.product" />
+    <file type="web" url="file://$PROJECT_DIR$/Large-scale-Stream-Processing/SAGA-Pattern/com.market.order" />
+    <file type="web" url="file://$PROJECT_DIR$/Large-scale-Stream-Processing/SAGA-Pattern/com.market.payment" />
+    <file type="web" url="file://$PROJECT_DIR$/Large-scale-Stream-Processing/SAGA-Pattern/com.market.product" />
     <file type="web" url="file://$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.client.auth" />
     <file type="web" url="file://$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.client.config" />
     <file type="web" url="file://$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.client.gateway" />
@@ -14,7 +17,7 @@
     <file type="web" url="file://$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.client.product" />
     <file type="web" url="file://$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.server/server" />
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
