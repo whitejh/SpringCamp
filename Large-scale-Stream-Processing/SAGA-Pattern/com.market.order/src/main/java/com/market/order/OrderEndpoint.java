@@ -20,7 +20,7 @@ public class OrderEndpoint {
     private final RabbitTemplate rabbitTemplate;
 
     @GetMapping("order/{orderId}")
-    public ResponseEntity<Order> getOrder(@PathVariable UUID orderId) {
+    public ResponseEntity<Order> getOrder(@PathVariable("orderId") UUID orderId) {
         Order order = orderService.getOrder(orderId);
         return ResponseEntity.ok(order);
     }
@@ -31,11 +31,11 @@ public class OrderEndpoint {
         return ResponseEntity.ok(order);
     }
 
-//    @RabbitListener(queues = "${message.queue.err.order}")
-//    public void errOrder(DeliveryMessage message) {
-//        log.info("ERROR RECEIVE !!!");
-//        orderService.rollbackOrder(message);
-//    }
+    @RabbitListener(queues = "${message.queue.err.order}")
+    public void errOrder(DeliveryMessage message) {
+        log.info("ERROR RECEIVE !!!");
+        orderService.rollbackOrder(message);
+    }
 
     @Data
     public static class OrderRequestDto {
@@ -56,6 +56,7 @@ public class OrderEndpoint {
         public DeliveryMessage toDeliveryMessage(UUID orderId){
             return DeliveryMessage.builder()
                     .orderId(orderId)
+                    .userId(userId)
                     .productId(productId)
                     .productQuantity(productQuantity)
                     .payAmount(payAmount)

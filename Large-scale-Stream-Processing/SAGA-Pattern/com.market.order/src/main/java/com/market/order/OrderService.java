@@ -26,25 +26,22 @@ public class OrderService {
         Order order = orderRequestDto.toOrder();
         orderStore.put(order.getOrderId(), order);
         DeliveryMessage deliveryMessage = orderRequestDto.toDeliveryMessage(order.getOrderId());
-
-        // orderStore.put(order.getOrderId(), order);
+        rabbitTemplate.convertAndSend(productQueue, deliveryMessage);
 
         log.info("send Message : {}",deliveryMessage.toString());
 
-        rabbitTemplate.convertAndSend(productQueue, deliveryMessage);
-
         return order;
-
     }
-
-//    public void rollbackOrder(DeliveryMessage message) {
-//        Order order = orderStore.get(message.getOrderId());
-//        order.cancelOrder(message.getErrorType());
-//        log.info(order.toString());
-//
-//    }
 
     public Order getOrder(UUID orderId) {
         return orderStore.get(orderId);
+    }
+
+    public void rollbackOrder(DeliveryMessage message) {
+
+        Order order = orderStore.get(message.getOrderId());
+        order.cancelOrder(message.getErrorType());
+        log.info(order.toString());
+
     }
 }
