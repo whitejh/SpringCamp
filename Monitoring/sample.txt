@@ -1,1 +1,11 @@
 docker run -d --name=prometheus -p 9090:9090 -v /d/SpringCamp/Monitoring/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
+
+
+docker run --name loki -d -v ${loki-config.yml 이 저장된 폴더}:/mnt/config -p 3100:3100 grafana/loki:3.0.0 -config.file=/mnt/config/loki-config.yml
+
+
+docker run --name loki -d -v /d/SpringCamp/Monitoring/loki:/mnt/config -p 3100:3100 grafana/loki:3.0.0 -config.file=/mnt/config/loki-config.yml
+
+
+- 이게 올바른 명령어 (--config.file)
+docker run --name loki -d -v /d/SpringCamp/Monitoring/loki:/mnt/config -p 3100:3100 grafana/loki:3.0.0 --config.file=/mnt/config/loki-config.yml
