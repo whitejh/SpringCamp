@@ -17,6 +17,10 @@
     <file type="web" url="file://$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.client.order" />
     <file type="web" url="file://$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.client.product" />
     <file type="web" url="file://$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.server/server" />
+    <file type="web" url="file://$PROJECT_DIR$/MSA/Load-Balancing/com.spring-cloud.eureka.client.order" />
+    <file type="web" url="file://$PROJECT_DIR$/MSA/Load-Balancing/com.spring-cloud.eureka.client.product" />
+    <file type="web" url="file://$PROJECT_DIR$/MSA/Load-Balancing/com.spring-cloud.eureka.server/server" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring3/MySelectShop" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
