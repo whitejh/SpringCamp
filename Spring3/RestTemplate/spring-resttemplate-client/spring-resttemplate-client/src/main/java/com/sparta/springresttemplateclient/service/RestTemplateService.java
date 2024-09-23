@@ -1,6 +1,7 @@
 package com.sparta.springresttemplateclient.service;
 
 import com.sparta.springresttemplateclient.dto.ItemDto;
+import com.sparta.springresttemplateclient.entity.User;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.json.JSONArray;
@@ -65,7 +66,23 @@ public class RestTemplateService {
     }
 
     public ItemDto postCall(String query) {
-        return null;
+        // 요청 URL 만들기
+        URI uri = UriComponentsBuilder
+                .fromUriString("http://localhost:7070")
+                .path("/api/server/post-call/{query}")
+                .encode()
+                .build()
+                .expand(query)
+                .toUri();
+        log.info("uri = " + uri);
+
+        User user = new User("Robbie", "1234");
+
+        ResponseEntity<ItemDto> responseEntity = restTemplate.postForEntity(uri, user, ItemDto.class);
+
+        log.info("statusCode = " + responseEntity.getStatusCode());
+
+        return responseEntity.getBody();
     }
 
     public List<ItemDto> exchangeCall(String token) {
@@ -73,8 +90,10 @@ public class RestTemplateService {
     }
 
     public List<ItemDto> fromJSONtoItems(String responseEntity) {
-        JSONObject jsonObject = new JSONObject(responseEntity);
-        JSONArray items  = jsonObject.getJSONArray("items");
+        JSONObject jsonObject = new JSONObject(responseEntity); // 문자열 정보를 JSONObject로 바꾸기
+        JSONArray items  = jsonObject.getJSONArray("items"); // JSONObject에서 items 배열 꺼내기
+
+        // JSONArray로 for문 돌면서 상품 하나씩 ItemDto로 변환하기
         List<ItemDto> itemDtoList = new ArrayList<>();
 
         for (Object item : items) {

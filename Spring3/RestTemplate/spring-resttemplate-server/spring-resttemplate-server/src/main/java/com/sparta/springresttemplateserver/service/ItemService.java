@@ -29,6 +29,7 @@ public class ItemService {
         return null;
     }
 
+    // Server 입장의 서버에서 itemList를 ItemResponseDto에 담아 반환
     public ItemResponseDto getCallList() {
         ItemResponseDto responseDto = new ItemResponseDto();
         for (Item item : itemList) {
@@ -37,8 +38,11 @@ public class ItemService {
         return responseDto;
     }
 
-    public Item postCall(String query, UserRequestDto requestDto) {
-        return null;
+    public Item postCall(String query, UserRequestDto userRequestDto) {
+        System.out.println("userRequestDto.getUsername() = " + userRequestDto.getUsername());
+        System.out.println("userRequestDto.getPassword() = " + userRequestDto.getPassword());
+
+        return getCallObject(query);
     }
 
     public ItemResponseDto exchangeCall(String token, UserRequestDto requestDto) {
