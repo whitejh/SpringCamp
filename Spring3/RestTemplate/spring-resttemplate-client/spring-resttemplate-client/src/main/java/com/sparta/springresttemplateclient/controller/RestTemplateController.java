@@ -31,7 +31,7 @@ public class RestTemplateController {
         return restTemplateService.postCall(query);
     }
 
-    @GetMapping("/exchange-call")
+    @PostMapping("/exchange-call")
     public List<ItemDto> exchangeCall(@RequestHeader("Authorization") String token) {
         return restTemplateService.exchangeCall(token);
     }
