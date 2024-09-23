@@ -1,8 +1,10 @@
 spring:
   application:
-    name: order-service
+    name: product-service
+  config:
+    import: "optional:configserver:"
 server:
-  port: 19091
+  port: 19093
 eureka:
   client:
     service-url:

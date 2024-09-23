@@ -11,12 +11,12 @@
     <file type="web" url="file://$PROJECT_DIR$/Large-scale-Stream-Processing/SAGA-Pattern/com.market.payment" />
     <file type="web" url="file://$PROJECT_DIR$/Large-scale-Stream-Processing/SAGA-Pattern/com.market.product" />
     <file type="web" url="file://$PROJECT_DIR$/Monitoring/com.monitor.sample" />
-    <file type="web" url="file://$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.client.auth" />
-    <file type="web" url="file://$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.client.config" />
-    <file type="web" url="file://$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.client.gateway" />
-    <file type="web" url="file://$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.client.order" />
-    <file type="web" url="file://$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.client.product" />
-    <file type="web" url="file://$PROJECT_DIR$/MSA/Eureka/com.spring-cloud.eureka.server/server" />
+    <file type="web" url="file://$PROJECT_DIR$/MSA/API_GW/com.spring-cloud.eureka.client.auth" />
+    <file type="web" url="file://$PROJECT_DIR$/MSA/API_GW/com.spring-cloud.eureka.client.config" />
+    <file type="web" url="file://$PROJECT_DIR$/MSA/API_GW/com.spring-cloud.eureka.client.gateway" />
+    <file type="web" url="file://$PROJECT_DIR$/MSA/API_GW/com.spring-cloud.eureka.client.order" />
+    <file type="web" url="file://$PROJECT_DIR$/MSA/API_GW/com.spring-cloud.eureka.client.product" />
+    <file type="web" url="file://$PROJECT_DIR$/MSA/API_GW/com.spring-cloud.eureka.server/server" />
     <file type="web" url="file://$PROJECT_DIR$/MSA/Load-Balancing/com.spring-cloud.eureka.client.order" />
     <file type="web" url="file://$PROJECT_DIR$/MSA/Load-Balancing/com.spring-cloud.eureka.client.product" />
     <file type="web" url="file://$PROJECT_DIR$/MSA/Load-Balancing/com.spring-cloud.eureka.server/server" />
